@@ -1,72 +1,47 @@
-# Somanath — Portfolio Website
+# Somanath | Cybersecurity Portfolio
 
-A stunning, modern portfolio website built with vanilla HTML, CSS, and JavaScript.
+Personal portfolio focused on cybersecurity learning, projects, and certifications.
 
-## ✨ Features
+## Profile
 
-- **Dark/Light Theme** toggle with localStorage persistence
-- **Glassmorphism** design with frosted-glass navbar
-- **Animated gradient orbs** in the hero section
-- **Scroll-reveal animations** using Intersection Observer
-- **Typing effect** for the hero subtitle
-- **Skill progress bars** with scroll-triggered animation
-- **Responsive design** — works on mobile, tablet, and desktop
-- **SEO optimized** with proper meta tags
+- Name: Somanath
+- Location: Bhubaneswar, Odisha, India
+- Email: somnath_naik@yahoo.com
+- Current Focus: Learning CJCA on Hack The Box
 
-## 🚀 Quick Start
+## Links
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/somanathPortfolio.git
-   ```
+- Portfolio Repo: https://github.com/kodeXsom/somanathPortfolio
+- GitHub: https://github.com/kodeXsom
+- LinkedIn: https://www.linkedin.com/in/somanathnaik21/
+- X: https://x.com/kodeXsom
 
-2. Open `index.html` in your browser — that's it! No build step needed.
+## Highlights
 
-## ✏️ Editing Content
+- Responsive portfolio built with HTML, CSS, and JavaScript
+- Skills section covering security fundamentals and tooling
+- Certifications section with 5 Coursera PDF certificates
+- Contact section with direct reach-out details
 
-All editable content is marked with `<!-- EDIT: ... -->` comments in `index.html`. Look for these to update:
+## Certifications Included
 
-- **Your role/title** — Line ~99
-- **Tagline** — Line ~102
-- **About bio** — Lines ~127-133
-- **Stats** (years, projects, etc.) — Lines ~138-152
-- **Skills** — Lines ~166-220
-- **Projects** — Lines ~234-290
-- **Contact email & location** — Lines ~308-317
-- **Social links** — Lines ~321-324
-- **Form handler** (Formspree) — Line ~330
+- Introduction to Cloud Computing
+- Cloud Computing Application Part-1
+- Foundations of Cybersecurity
+- Play It Safe: Manage Security Risk
+- Coursera Generative AI
 
-## 🌐 Free Hosting Options
+## Tech
 
-### GitHub Pages (Recommended)
-1. Push this repo to GitHub
-2. Go to **Settings → Pages**
-3. Set Source to **main** branch, root folder
-4. Your site will be live at `https://YOUR_USERNAME.github.io/somanathPortfolio/`
+- HTML
+- CSS
+- JavaScript
 
-### Netlify
-1. Go to [netlify.com](https://netlify.com)
-2. Drag and drop the project folder
-3. Your site is live instantly!
+## Local Preview
 
-### Vercel
-1. Go to [vercel.com](https://vercel.com)
-2. Import your GitHub repo
-3. Deploy with zero config
+1. Clone: git clone https://github.com/kodeXsom/somanathPortfolio.git
+2. Open index.html in browser
 
-## 📁 File Structure
+## Deployment
 
-```
-somanathPortfolio/
-├── index.html          # Main HTML (edit your content here)
-├── css/
-│   └── style.css       # All styles (dark/light themes, animations)
-├── js/
-│   └── main.js         # Interactivity (loader, theme, scroll, typing)
-├── .gitignore
-└── README.md
-```
-
-## 📄 License
-
-MIT License — feel free to use and modify.
+Ready to deploy on GitHub Pages, Netlify, or Vercel.
