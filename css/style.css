@@ -609,6 +609,16 @@ body[data-theme="light"] .hero-orb-3 {
   margin-bottom: 20px;
 }
 
+.about-text a {
+  color: var(--accent-light);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.about-text a:hover {
+  color: var(--accent-secondary);
+}
+
 .about-stats {
   display: grid;
   grid-template-columns: 1fr;
@@ -733,15 +743,7 @@ body[data-theme="light"] .hero-orb-3 {
   background: var(--bg-primary);
 }
 
-.resume-grid {
-  display: grid;
-  grid-template-columns: 0.95fr 1.05fr;
-  gap: 28px;
-  align-items: start;
-}
-
-.resume-summary,
-.resume-preview-card {
+.resume-summary {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
@@ -821,59 +823,6 @@ body[data-theme="light"] .hero-orb-3 {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
-}
-
-.resume-preview-card {
-  padding: 22px;
-}
-
-.resume-preview-header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 18px;
-}
-
-.resume-preview-header h3 {
-  font-family: var(--font-heading);
-  font-size: 1.25rem;
-  margin-bottom: 6px;
-}
-
-.resume-preview-header p {
-  color: var(--text-secondary);
-  font-size: 0.92rem;
-}
-
-.resume-file-chip {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 12px;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  color: var(--accent-light);
-  background: rgba(var(--accent-primary-rgb), 0.12);
-  border: 1px solid rgba(var(--accent-primary-rgb), 0.18);
-}
-
-.resume-preview-frame {
-  width: 100%;
-  height: 720px;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  border: 1px solid var(--border-color);
-  background: var(--bg-secondary);
-}
-
-.resume-preview-frame iframe {
-  width: 100%;
-  height: 100%;
-  border: 0;
-  display: block;
 }
 
 .projects-grid {
@@ -1373,14 +1322,6 @@ body[data-theme="light"] .cert-badge-visual span {
     gap: 40px;
   }
 
-  .resume-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .resume-preview-frame {
-    height: 640px;
-  }
-
   .footer-content {
     grid-template-columns: 1fr;
     gap: 24px;
@@ -1448,18 +1389,13 @@ body[data-theme="light"] .cert-badge-visual span {
     padding: 24px;
   }
 
-  .resume-summary,
-  .resume-preview-card {
+  .resume-summary {
     padding: 20px;
   }
 
   .resume-actions .btn {
     width: 100%;
     max-width: none;
-  }
-
-  .resume-preview-frame {
-    height: 560px;
   }
 
   .footer-bottom {

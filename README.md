@@ -7,7 +7,7 @@ Personal portfolio focused on cybersecurity learning, projects, and certificatio
 - Name: Somanath
 - Location: Bhubaneswar, Odisha, India
 - Email: somnath_naik@yahoo.com
-- Current Focus: Learning CJCA on Hack The Box
+- Current Focus: Building cybersecurity fundamentals through the TryHackMe Cyber Security Learning Roadmap, with a goal of becoming a penetration tester
 
 ## Links
 
@@ -15,6 +15,7 @@ Personal portfolio focused on cybersecurity learning, projects, and certificatio
 - GitHub: https://github.com/kodeXsom
 - LinkedIn: https://www.linkedin.com/in/somanathnaik21/
 - X: https://x.com/kodeXsom
+- TryHackMe Learning Roadmap: https://tryhackme.com/hacktivities
 
 ## Highlights
 
